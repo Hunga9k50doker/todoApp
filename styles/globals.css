@@ -16,12 +16,14 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.menu_list__menu-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.menu_list__menu-list::-webkit-scrollbar-track:hover {
+  border-radius: 4px;
+}
+.menu_list__menu-list::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #888;
 }
